@@ -1,1 +1,52 @@
-Hello World
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Cheyenne J. Clark</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section class="index">
+      <div class="feature">
+        <img src="mushroom.png">
+      </div>
+      <div class="copy">
+        <p>My portfolio of art creations will sprout soon!</p>
+        <p>In the meantime, <a href class="swap-view">contact me</a> for custom work!</p>
+        <span class="social">
+          <!--<a href class="button">A</a>
+          <a href class="button">B</a>
+          <a href class="button">C</a>-->
+          <a href class="button swap-view">Get in Touch! &rsaquo;</a>
+        </span>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="copy">
+        <form action="//formspree.io/cheyenne@geekyartgirl.com" method="post">
+          <p>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+          </p>
+          <p>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="name">
+          </p>
+          <p class="full">
+            <label for="message">Message</label>
+            <input type="text" id="message" name="message">
+          </p>
+          <a href class="button de-em swap-view">&lsaquo; Never mind</a>
+          <button class="button" type="submit">Send &rsaquo;</button>
+        </form>
+      </div>
+      <div class="feature">
+        <img src="headshot.jpg">
+      </div>
+    </section>
+  </main>
+  <script src="jquery.js"></script>
+  <script src="site.js"></script>
+</body>
+</html>
